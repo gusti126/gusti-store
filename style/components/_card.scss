@@ -12,7 +12,10 @@
 
   .dashboard-card-subtitle {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 20px;
     color: #0c0d36;
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
   }
 }
